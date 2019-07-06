@@ -3,8 +3,7 @@ version: '2'
 services:
 
   drupal:
-    image: custom-drupal
-    build: .
+    image: drupal:8.2
     ports:
       - "8080:80"
     volumes:
